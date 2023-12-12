@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@200&family=Merriweather:wght@900&display=swap');
+
+
+body {
+    background: linear-gradient(to bottom, #343a40, #1b1e21); /* Grey gradient background */
+    color: white; /* Light text for dark theme */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Merriweather', serif;
+}
+
+h3, h4, h5, h6 {
+    font-family: 'Kalnia', serif;
+}
+
+.drop-shadow-text {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+
+.navbar-custom {
+    background-color: #4e0000; 
+}
+.container-custom {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1); 
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.container-custom-form {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1); 
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.container-fluid-custom {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1); 
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+input[type="text"] {
+    max-width: 300px; 
+    width: 100%; 
+}
+
+.header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.image-custom {
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+.custom-footer {
+    position: relative;
+    padding: 60px 0; 
+    color: #fff; 
+    background: transparent;
+    overflow: hidden;
+}
+
+
+@keyframes swing {
+    0% { transform: rotate(-10deg); }
+    50% { transform: rotate(10deg); }
+    100% { transform: rotate(-10deg); }
+}
+
+.swing-text {
+    display: inline-block;
+    animation: swing 2s infinite ease-in-out;
+}
+
+.custom-footer .grey-link {
+    color: grey;
+    text-decoration: none;
+}
+
+.custom-footer .grey-link:hover {
+    text-decoration: underline;
+}
+
+
+
+

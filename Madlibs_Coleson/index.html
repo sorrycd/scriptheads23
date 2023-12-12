@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mad Libs</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/build.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    
+</head>
+
+<body>
+    <br>
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="header">
+                    <h1 class="drop-shadow-text">Coleson's Mad Libs</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<br>
+
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+        <a class="navbar-brand" href="#"><h2 class="drop-shadow-text">Coleson's Mad Libs</h2></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+
+        </div>
+    </nav>
+
+    <div class="container-custom">
+        <h2>Mad Lib Game</h2>
+        <form id="madLibsForm" class="row">
+            <div class="col-sm-3">
+                <div class="form-group">
+                    <label for="action"><h5>Verb</h5></label>
+                    <input type="text" class="form-control" id="action" required>
+                </div>
+                <div class="form-group">
+                    <label for="clothes"><h5>Clothes</h5></label>
+                    <input type="text" class="form-control" id="clothes" required>
+                </div>
+                <div class="form-group">
+                    <label for="consumable"><h5>Consumable</h5></label>
+                    <input type="text" class="form-control" id="consumable" required>
+                </div>
+                <div class="form-group">
+                    <label for="creature"><h5>Creature</h5></label>
+                    <input type="text" class="form-control" id="creature" required>
+                </div>
+                <div class="form-group">
+                    <label for="creaturetwo"><h5>Creature Two</h5></label>
+                    <input type="text" class="form-control" id="creaturetwo" required>
+                </div>
+
+                <br>
+            </div>
+
+            <div class="col-sm-3">
+                <div class="form-group">
+                    <label for="weapon"><h5>Weapon</h5></label>
+                    <input type="text" class="form-control" id="weapon" required>
+                </div>
+                <div class="form-group">
+                    <label for="weapontwo"><h5>Weapon Two</h5></label>
+                    <input type="text" class="form-control" id="weapontwo" required>
+                </div>
+                <div class="form-group">
+                    <label for="emotion"><h5>Emotion</h5></label>
+                    <input type="text" class="form-control" id="emotion" required>
+                </div>
+                <div class="form-group">
+                    <label for="wound"><h5>Wound (plural)</h5></label>
+                    <input type="text" class="form-control" id="wound" required>
+                </div>
+                <div class="form-group">
+                    <label for="mutation"><h5>Mutation</h5></label>
+                    <input type="text" class="form-control" id="mutation" required>
+                <div class="col-sm-3"></div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+        <form>
+
+    <div class="container-fluid-custom">
+        <div class="col-sm-12">
+                    
+        <h2>Also, do you think fish are cool?</h2>
+
+        <br>
+        
+        <input type="radio" id="fish1" name="myRadioForm" value="fish are great.">
+        <label  for="fish1"><h2></h2>Fish are great</label><br>
+        <input type="radio" id="fish2" name="myRadioForm" value="fish are alright.">
+        <label for="fish2">Fish are alright</label><br>
+        <input type="radio" id="fish3" name="myRadioForm" value="fish are lame.">
+        <label for="fish3">Fish are lame</label><br>
+        <input type="radio" id="fish4" name="myRadioForm" value="fish suck.">
+        <label for="fish4">I hate fish</label><br><br>
+
+        <button type="button" class="btn btn-danger" onclick="handleSubmit()">Submit</button>
+        </div>
+    </div>
+
+        </form>
+
+    <div class="container-custom">
+        <br>
+        <div id="storyOutput"><h3 class="drop-shadow-text"> Story Will Appear Here</h3></div>
+        <br>
+    </div>
+
+    <div class="container-custom">
+        <h3 class="drop-shadow-text">Your opinions on fish will appear under this image.</h3>
+            <img class="image-custom" src="../images/scaryfish.jpg">
+            <br>
+        <h4 class="swing-text" id="selectedValue"></h4>
+    </div>
+    <br>
+
+    <footer class="custom-footer">
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <h2>
+                    <a href="https://oceanconservancy.org/blog/2020/10/23/6-sea-riously-spooky-fish-species/" class="grey-link" target="_blank">Spooky Fish Image</a>
+                </h2>
+            </div>
+        </div>
+    </footer>
+    
+    
+
+    <script src="js/madlibs.js"></script>
+
+</body>
+
+</html>
+
+
