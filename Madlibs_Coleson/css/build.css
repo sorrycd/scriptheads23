@@ -2,11 +2,11 @@
 
 
 body {
-    background: linear-gradient(to bottom, #343a40, #1b1e21); /* Grey gradient background */
-    color: white; /* Light text for dark theme */
+    background: linear-gradient(to bottom, #343a40, #1b1e21);
+    color: white;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2 {
     font-family: 'Merriweather', serif;
 }
 
@@ -18,7 +18,10 @@ h3, h4, h5, h6 {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-
+.btn-custom-danger {
+    background-color: #4e0000;
+    border-color: #4e0000;
+}
 
 .navbar-custom {
     background-color: #4e0000; 
